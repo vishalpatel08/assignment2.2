@@ -291,7 +291,7 @@ footer{
 	color: grey;
 	font-size: 25px;
 	padding-left: 30%;
-	background:red url("footer-background-live.jpg") center/cover no-repeat ;
+	background:green url('footer-background-live.jpg') center/cover no-repeat ;
 }
 
 footer input[type="Submit"]{
