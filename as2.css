@@ -1,0 +1,317 @@
+body{
+	background:white url('home.JPG') center/cover no-repeat fixed;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.c-head{
+	background-color:white;
+	display: block;
+	height: 70px;
+}
+
+.c-head ul li{
+	display: inline-block;
+	float:left;
+	padding-right: 30px;
+	color: grey;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.c-head2{
+	float: right;
+	margin-right: 50px;
+}
+
+.Treehouse{
+	float: left;
+	font-size: 2em;
+	color: green;
+	font-family: Courier;
+	width: 30%;
+	padding: 20px;
+}
+
+/*Part   2*/
+
+.upperpart{
+	padding-top: 120px;
+	clear: both;
+	font-weight:400;
+	height: 500px;
+}
+
+.leftside{
+	clear: both;
+	float: left;
+	font-size: 2em;
+	margin-top: 100px;
+	color: white;
+	padding-left: 1%;
+	width: 48%;
+}
+
+.datainput{
+	margin-top: 40px;
+	width: 50%;
+	display: block;
+	border-radius: 10px;
+	float: right;
+	background-color: white;
+	color: #234;
+}
+
+.inputhead{
+	font-size: 25px;
+	height: 30px;
+	background-color: #efefef;
+	padding: 20px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-bottom: 30px;
+	padding-left: 50px;
+	font-family: Helvetica;
+}
+
+.data{
+	padding-bottom: 20px; 
+	border-bottom: grey solid 2px;
+}
+
+.c-name{
+	float: left;
+	font-size: 20px;
+	padding-left:30px;
+    width:45%;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.c-lname{
+	float: right;
+	font-size: 20px;
+	padding-right: 25px;
+	width: 45%;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.check{
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+input[type="submit"]{
+	font-size: 20px;
+	background-color: #23efe6;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+	height: 40px;
+}
+
+input{
+	height: 30px;
+	width: 90%;
+}
+input[type="checkbox"]{
+	clear: both;
+	width: initial;
+	height: initial;
+}
+
+/*part 3*/
+
+.int ul li{
+	clear: both;
+	display: inline-block;
+	color: white;
+	padding:15px;
+	font-size: 2em;
+}
+.int ul li::first-letter{
+	font-size: 3em;
+}
+
+/*part 4*/
+
+.flexible{
+	height: 1750px;
+	background-color: white;
+}
+	
+.flexiblecontent{
+	width: 50%;
+	float: right;
+	/*background-color: #fff;*/
+	color: #234;
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 68px;
+	border-bottom: 1px solid red;
+}
+.flexiblevideo{
+	clear: both;
+	float:left; 
+	/*background-color: #fff;*/
+	width: 50%;
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	border-bottom: 1px solid red;
+}
+ p{
+ 	color: #433;
+    font-size: 25px;
+ }
+
+.supportive{
+	clear: both;
+	width: 40%;
+	float: left;
+	padding-left: 30px;
+	padding-top: 40px;
+	padding-bottom: 200px;
+
+}
+
+.Valuable{
+	
+	width: 40%;
+	float: right;
+	padding-right: 30px;
+	padding-top: 40px;
+	padding-bottom: 400px;
+}
+
+/* PART 5*/
+.partner{
+	padding-top: 150px;
+	padding-left:32%;
+	font-size: 2em;
+	padding-bottom: 0px;
+}
+
+.logo{
+	clear: both;
+	display: block;
+	width: 100%;
+	
+}
+.logo ul li{
+	display: inline-block;
+	padding-left: 40px;
+	/*padding-right: 10px;*/
+}
+
+/*PART 6*/
+
+.conc{
+	height: 300px;
+	background:grey url("back.JPG") center/cover no-repeat ;
+	padding-top: 60px;
+}
+.conc span{
+	width: 100%;
+	font-size: 3em;
+	padding-left: 30%;
+	color:grey;
+	clear: both;
+	text-align: center;
+
+}
+
+.conc div {
+	color: grey;
+	font-size: 10px;
+	width: 45%;
+	padding-left: 20%;
+	text-align: center;
+}
+
+.conc input[type="submit"]{
+	clear: both;
+	background-color: green;
+	width: initial;
+	margin-left: 160px;
+	font-size: 20px;
+}
+
+
+/*PART 7*/
+.c-footer{
+	height: 170px;
+	background-color: white;
+	position: relative;
+	padding: 30px;
+	padding-bottom: 120px;
+}
+
+.c-footer p{
+	/*float: left;*/
+	font-size: 30px;
+	padding-bottom: 10px;
+	width: 15%;
+}
+
+.c-footer ul li{
+	float: left;
+	display: inline-block;
+	padding-right: 150px;
+	padding-left: 150px;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+.copy{
+	float: left;
+	width: 17%;
+}
+
+.clast{
+	width: 75%;
+	float: right;
+	padding-top: 60px;
+	padding-left: 40px;
+}
+
+footer{
+	clear: both;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	color: grey;
+	font-size: 25px;
+	padding-left: 30%;
+	background:red url("footer-background-live.JPG") center/cover no-repeat ;
+}
+
+footer input[type="Submit"]{
+	clear: both;
+	width: initial;
+	margin-right: 30%;
+	padding-left: 0px;
+	margin-left: 0px;
+
+}
+
+footer label{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+
+/*FOR PAGE 2*/
+
+.page2 p{
+  font-size: 3em;
+  color: green;
+}
